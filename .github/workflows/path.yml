@@ -1,4 +1,4 @@
-name: github.ref Test
+name: PATH Test
 
 on: push
 
@@ -8,4 +8,4 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - run: echo ${{ github.ref }}
+      - run: echo $PATH
